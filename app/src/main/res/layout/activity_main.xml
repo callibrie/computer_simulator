@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="105dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="30sp"
+            android:ems="10"
+            android:textAlignment="center"
+            android:id="@+id/editText3"/>
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:gravity="start|top"
+            android:ems="10"
+            tools:layout_editor_absoluteY="387dp"
+            tools:layout_editor_absoluteX="99dp"
+            android:text="@string/input"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/black"
+            android:enabled="false"
+            android:id="@+id/editText"/>
+        <Button
+            android:text="@string/btn_run"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteY="477dp"
+            tools:layout_editor_absoluteX="161dp"
+            android:id="@+id/btn_run"/>
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

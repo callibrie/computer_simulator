@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ComputerSimulator</string>
+    <string name="btn_run">Run</string>
+    <string name="input">def print_tenten \n
+        print(multiply(101, 10)) \n
+        end \n \n
+        print(1009) \n
+        print_tenten() \n</string>
+</resources>
